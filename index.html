@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Keshav Sapra · Pinned work</title>
+  <meta name="description" content="Pinned projects from Keshav Sapra. Open source tools built for Linux, self hosting and privacy. No cloud accounts, no telemetry.">
+  <meta property="og:title" content="Keshav Sapra · Pinned work">
+  <meta property="og:description" content="Six pinned projects. Open source, self hosted, privacy first. Built on Linux.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://keshavsapra.github.io/assets/img/og.png">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Floating nav ===== -->
+  <header class="nav-wrap">
+    <nav class="nav" aria-label="Primary">
+      <a class="nav-brand" href="#top">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">Keshav Sapra</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span class="nav-toggle-line" aria-hidden="true"></span>
+        <span class="nav-toggle-line" aria-hidden="true"></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link" href="#work">Work</a>
+        <a class="nav-link" href="#stack">Stack</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-link nav-link-ext" href="https://github.com/keshavsapra" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="top">
+      <div class="container">
+        <p class="eyebrow reveal">keshavsapra · architect · AI enthusiast</p>
+        <h1 class="hero-title reveal">
+          Open source tools<br>
+          that run at home<br>
+          and stay yours.
+        </h1>
+        <p class="hero-sub reveal">
+          Six pinned repositories in Python, Rust, JavaScript and Bash.
+          Privacy first, self hosted, no cloud accounts involved.
+        </p>
+        <div class="hero-cta reveal">
+          <a class="btn btn-primary" href="#work">Explore pinned work</a>
+          <a class="btn btn-ghost" href="https://github.com/keshavsapra" target="_blank" rel="noopener">View GitHub profile</a>
+        </div>
+        <ul class="hero-stats reveal" aria-label="Quick facts">
+          <li><span class="stat-num">06</span><span class="stat-label">pinned repos</span></li>
+          <li><span class="stat-num">04</span><span class="stat-label">languages</span></li>
+          <li><span class="stat-num">100%</span><span class="stat-label">open source</span></li>
+          <li><span class="stat-num">00</span><span class="stat-label">telemetry</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Tagline reveal (word by word) ===== -->
+    <section class="tagline" aria-label="About this work">
+      <div class="container">
+        <h2 class="tagline-copy" id="tagline">Small tools that run at home,
+          respect your privacy and outlast the cloud.
+          Build it once, own it forever.</h2>
+      </div>
+    </section>
+
+    <!-- ===== Work ===== -->
+    <section class="work" id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Selected work</h2>
+          <p class="section-note">pinned_01 — pinned_06</p>
+        </div>
+
+        <!-- 01 · SafeMark (featured) -->
+        <article class="card card-wide in-flow reveal" id="safemark">
+          <div class="card-art">
+            <svg viewBox="0 0 900 380" role="img" aria-label="Abstract art of a shield and scattered encrypted data squares" preserveAspectRatio="xMidYMid slice">
+              <rect width="900" height="380" fill="var(--art-bg)"/>
+              <g fill="var(--art-dim)">
+                <rect x="60" y="52" width="10" height="10"/><rect x="120" y="300" width="10" height="10"/>
+                <rect x="212" y="120" width="14" height="14"/><rect x="330" y="60" width="10" height="10"/>
+                <rect x="430" y="330" width="12" height="12"/><rect x="560" y="48" width="10" height="10"/>
+                <rect x="640" y="318" width="14" height="14"/><rect x="790" y="90" width="10" height="10"/>
+                <rect x="840" y="240" width="12" height="12"/><rect x="255" y="236" width="10" height="10"/>
+              </g>
+              <circle cx="450" cy="190" r="118" fill="none" stroke="var(--accent)" stroke-width="4"/>
+              <rect x="402" y="142" width="96" height="96" rx="10" fill="var(--accent)" transform="rotate(45 450 190)"/>
+              <circle cx="450" cy="190" r="14" fill="var(--art-bg)"/>
+              <path d="M450 190 v34" stroke="var(--art-bg)" stroke-width="8" stroke-linecap="round"/>
+              <circle cx="700" cy="150" r="46" fill="var(--surface2)"/>
+              <rect x="160" y="112" width="120" height="120" rx="12" fill="var(--surface2)"/>
+              <path d="M120 320 h210" stroke="var(--line)" stroke-width="2"/>
+              <path d="M612 300 h220" stroke="var(--line)" stroke-width="2"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-index">01</span>
+              <span class="card-flag">live demo</span>
+            </div>
+            <h3 class="card-title">SafeMark</h3>
+            <p class="card-desc">
+              Encrypted bookmarks, zero knowledge. This Chrome and Brave extension vaults
+              your bookmarks with AES 256 GCM. The password never leaves your head, the
+              vault never phones home.
+            </p>
+            <ul class="card-tags" aria-label="Technologies">
+              <li>Chrome extension</li><li>AES 256 GCM</li><li>JavaScript</li>
+            </ul>
+            <p class="card-meta">MIT · 1 star · updated Oct 2026</p>
+            <div class="card-links">
+              <a class="card-link" href="https://github.com/keshavsapra/SafeMark" target="_blank" rel="noopener">Repository <span aria-hidden="true">↗</span></a>
+              <a class="card-link card-link-alt" href="https://keshavsapra.github.io/SafeMark/" target="_blank" rel="noopener">Launch vault <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 02 · nextchapter -->
+        <article class="card reveal" id="nextchapter">
+          <div class="card-art">
+            <svg viewBox="0 0 440 260" role="img" aria-label="Abstract art of stacked digital pages" preserveAspectRatio="xMidYMid slice">
+              <rect width="440" height="260" fill="var(--art-bg)"/>
+              <rect x="70" y="70" width="220" height="150" rx="10" fill="var(--surface2)"/>
+              <rect x="94" y="52" width="220" height="150" rx="10" fill="var(--surface3)"/>
+              <rect x="118" y="34" width="220" height="150" rx="10" fill="#1F1F1F"/>
+              <rect x="118" y="34" width="220" height="26" rx="10" fill="var(--accent)"/>
+              <g fill="var(--surface3)">
+                <rect x="140" y="80" width="150" height="8" rx="4"/>
+                <rect x="140" y="100" width="176" height="8" rx="4"/>
+                <rect x="140" y="120" width="120" height="8" rx="4"/>
+              </g>
+              <rect x="360" y="120" width="6" height="90" rx="3" fill="var(--accent)"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><span class="card-index">02</span></div>
+            <h3 class="card-title">Nextchapter</h3>
+            <p class="card-desc">
+              Your digital shelf on your own server. A PDF and EPUB library and reader in
+              Rust and Svelte. Point it at a folder and your archive just shows up, Docker
+              ready for Raspberry Pi and arm64.
+            </p>
+            <ul class="card-tags" aria-label="Technologies">
+              <li>Rust</li><li>Svelte</li><li>Docker</li><li>Raspberry Pi</li>
+            </ul>
+            <p class="card-meta">Apache 2.0 · 1 star · updated Oct 2026</p>
+            <div class="card-links">
+              <a class="card-link" href="https://github.com/keshavsapra/nextchapter" target="_blank" rel="noopener">Repository <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 03 · project-menu -->
+        <article class="card reveal" id="project-menu">
+          <div class="card-art">
+            <svg viewBox="0 0 440 260" role="img" aria-label="Abstract art of a display picker grid with one active tile" preserveAspectRatio="xMidYMid slice">
+              <rect width="440" height="260" fill="var(--art-bg)"/>
+              <g fill="var(--surface2)">
+                <rect x="52" y="46" width="100" height="70" rx="8"/>
+                <rect x="170" y="46" width="100" height="70" rx="8"/>
+                <rect x="288" y="46" width="100" height="70" rx="8"/>
+                <rect x="52" y="134" width="100" height="70" rx="8"/>
+              </g>
+              <rect x="170" y="134" width="100" height="70" rx="8" fill="var(--accent)"/>
+              <rect x="288" y="134" width="100" height="70" rx="8" fill="var(--surface2)"/>
+              <rect x="30" y="30" width="124" height="94" rx="12" fill="none" stroke="var(--accent)" stroke-width="3" stroke-dasharray="0 0" transform="translate(12 -4)"/>
+              <g fill="var(--art-dim)">
+                <rect x="72" y="70" width="60" height="8" rx="4"/><rect x="72" y="88" width="42" height="8" rx="4"/>
+                <rect x="190" y="160" width="60" height="8" rx="4" fill="var(--art-bg)"/><rect x="190" y="178" width="42" height="8" rx="4" fill="var(--art-bg)"/>
+                <rect x="308" y="70" width="60" height="8" rx="4"/><rect x="308" y="88" width="42" height="8" rx="4"/>
+                <rect x="72" y="158" width="60" height="8" rx="4"/><rect x="72" y="176" width="42" height="8" rx="4"/>
+                <rect x="308" y="158" width="60" height="8" rx="4"/><rect x="308" y="176" width="42" height="8" rx="4"/>
+              </g>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><span class="card-index">03</span></div>
+            <h3 class="card-title">Project Menu</h3>
+            <p class="card-desc">
+              The display switcher Linux always wanted. A Super P popup that works on every
+              desktop: GNOME, KDE, Cinnamon, Sway, Hyprland, COSMIC and XFCE, on Wayland and
+              X11 alike.
+            </p>
+            <ul class="card-tags" aria-label="Technologies">
+              <li>Python</li><li>GTK</li><li>Wayland</li><li>X11</li>
+            </ul>
+            <p class="card-meta">MIT · updated Oct 2026</p>
+            <div class="card-links">
+              <a class="card-link" href="https://github.com/keshavsapra/project-menu" target="_blank" rel="noopener">Repository <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 04 · Google Keep to Joplin -->
+        <article class="card reveal" id="keep-to-joplin">
+          <div class="card-art">
+            <svg viewBox="0 0 440 260" role="img" aria-label="Abstract art of scattered notes flowing into an ordered stack" preserveAspectRatio="xMidYMid slice">
+              <rect width="440" height="260" fill="var(--art-bg)"/>
+              <g fill="var(--surface2)" transform="rotate(-8 100 130)">
+                <rect x="52" y="70" width="72" height="72" rx="6"/>
+              </g>
+              <g fill="var(--surface3)" transform="rotate(6 130 180)">
+                <rect x="92" y="140" width="72" height="72" rx="6"/>
+              </g>
+              <g fill="var(--surface2)" transform="rotate(-4 96 66)">
+                <rect x="60" y="26" width="72" height="72" rx="6"/>
+              </g>
+              <path d="M190 130 C 230 130, 232 130, 268 130" stroke="var(--accent)" stroke-width="4" fill="none"/>
+              <path d="M258 118 L 274 130 L 258 142" stroke="var(--accent)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="292" y="56" width="108" height="16" rx="4" fill="var(--accent)"/>
+              <rect x="292" y="84" width="108" height="14" rx="4" fill="var(--surface3)"/>
+              <rect x="292" y="106" width="108" height="14" rx="4" fill="var(--surface3)"/>
+              <rect x="292" y="128" width="108" height="14" rx="4" fill="var(--surface3)"/>
+              <rect x="292" y="150" width="76" height="14" rx="4" fill="var(--surface3)"/>
+              <circle cx="304" cy="63" r="3" fill="var(--art-bg)"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><span class="card-index">04</span></div>
+            <h3 class="card-title">Google Keep to Joplin</h3>
+            <p class="card-desc">
+              Leave Keep without losing a note. This Python script turns your Google Keep
+              HTML export into Markdown files that drop straight into Joplin, ready to
+              import in one pass.
+            </p>
+            <ul class="card-tags" aria-label="Technologies">
+              <li>Python</li><li>Markdown</li><li>Joplin</li>
+            </ul>
+            <p class="card-meta">MIT · 6 stars · updated Oct 2026</p>
+            <div class="card-links">
+              <a class="card-link" href="https://github.com/keshavsapra/Google-Keep-to-Joplin" target="_blank" rel="noopener">Repository <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 05 · rhino-linux -->
+        <article class="card reveal" id="rhino-linux">
+          <div class="card-art">
+            <svg viewBox="0 0 440 260" role="img" aria-label="Abstract art of overlapping application windows" preserveAspectRatio="xMidYMid slice">
+              <rect width="440" height="260" fill="var(--art-bg)"/>
+              <rect x="46" y="60" width="200" height="140" rx="10" fill="var(--surface2)"/>
+              <rect x="46" y="60" width="200" height="24" rx="10" fill="var(--surface3)"/>
+              <circle cx="62" cy="72" r="5" fill="var(--accent)"/>
+              <circle cx="78" cy="72" r="5" fill="var(--art-dim)"/>
+              <g fill="var(--surface3)">
+                <rect x="62" y="100" width="70" height="8" rx="4"/>
+                <rect x="62" y="120" width="110" height="8" rx="4"/>
+                <rect x="62" y="140" width="90" height="8" rx="4"/>
+              </g>
+              <rect x="212" y="106" width="190" height="130" rx="10" fill="#1F1F1F" stroke="var(--line)" stroke-width="2"/>
+              <rect x="212" y="106" width="190" height="24" rx="10" fill="var(--surface3)"/>
+              <g stroke="var(--accent)" stroke-width="4" fill="none" stroke-linecap="round">
+                <path d="M296 150 L 340 220"/>
+                <path d="M340 150 L 296 220"/>
+              </g>
+              <circle cx="228" cy="118" r="5" fill="var(--art-dim)"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><span class="card-index">05</span></div>
+            <h3 class="card-title">Rhino on Linux</h3>
+            <p class="card-desc">
+              3D work that survives a move to Linux. Patches and scripts that get
+              McNeel Rhinoceros running through Wine with DXVK, tuned until the GPU
+              pipeline behaves.
+            </p>
+            <ul class="card-tags" aria-label="Technologies">
+              <li>Wine</li><li>DXVK</li><li>Shell</li>
+            </ul>
+            <p class="card-meta">Fork · updated Oct 2026</p>
+            <div class="card-links">
+              <a class="card-link" href="https://github.com/keshavsapra/rhino-linux" target="_blank" rel="noopener">Repository <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 06 · pi-backup (wide closer) -->
+        <article class="card card-wide reveal" id="pi-backup">
+          <div class="card-art">
+            <svg viewBox="0 0 900 380" role="img" aria-label="Abstract art of two identical drives, one duplicated as backup" preserveAspectRatio="xMidYMid slice">
+              <rect width="900" height="380" fill="var(--art-bg)"/>
+              <rect x="270" y="96" width="360" height="94" rx="14" fill="#1F1F1F" stroke="var(--line)" stroke-width="2"/>
+              <circle cx="304" cy="143" r="10" fill="var(--accent)"/>
+              <g fill="var(--surface3)">
+                <rect x="336" y="120" width="180" height="8" rx="4"/>
+                <rect x="336" y="140" width="130" height="8" rx="4"/>
+              </g>
+              <rect x="336" y="158" width="90" height="12" rx="6" fill="var(--surface2)"/>
+              <rect x="330" y="196" width="360" height="94" rx="14" fill="var(--surface2)"/>
+              <circle cx="364" cy="243" r="10" fill="var(--art-dim)"/>
+              <g fill="var(--surface3)">
+                <rect x="396" y="220" width="180" height="8" rx="4"/>
+                <rect x="396" y="240" width="130" height="8" rx="4"/>
+              </g>
+              <path d="M700 120 C 740 140, 740 250, 700 268" stroke="var(--accent)" stroke-width="4" fill="none" stroke-linecap="round"/>
+              <path d="M708 252 L 698 272 L 684 258" stroke="var(--accent)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              <g fill="var(--art-dim)">
+                <rect x="120" y="320" width="12" height="12"/><rect x="790" y="70" width="12" height="12"/><rect x="180" y="60" width="10" height="10"/>
+              </g>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-index">06</span>
+              <span class="card-flag card-flag-muted">archived</span>
+            </div>
+            <h3 class="card-title">Pi Backup</h3>
+            <p class="card-desc">
+              One command and the SD card is safe. A backup wizard that walks a Raspberry
+              Pi through imaging its own card, then trims the image down to what you
+              actually use. Retired after doing its job, still open for anyone who needs it.
+            </p>
+            <ul class="card-tags" aria-label="Technologies">
+              <li>Bash</li><li>Raspberry Pi</li><li>Disk imaging</li>
+            </ul>
+            <p class="card-meta">MIT · archived · updated Oct 2026</p>
+            <div class="card-links">
+              <a class="card-link" href="https://github.com/keshavsapra/pi-backup" target="_blank" rel="noopener">Repository <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Stack ===== -->
+    <section class="stack" id="stack">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">What I build with</h2>
+          <p class="section-note">languages &amp; surfaces</p>
+        </div>
+        <div class="stack-grid">
+          <div class="stack-item reveal">
+            <span class="stack-lang">Python</span>
+            <span class="stack-use">CLIs, converters, desktop apps</span>
+          </div>
+          <div class="stack-item reveal">
+            <span class="stack-lang">Rust</span>
+            <span class="stack-use">fast, small, self hosted services</span>
+          </div>
+          <div class="stack-item reveal">
+            <span class="stack-lang">JavaScript</span>
+            <span class="stack-use">browser extensions, Svelte apps</span>
+          </div>
+          <div class="stack-item reveal">
+            <span class="stack-lang">Shell</span>
+            <span class="stack-use">system tooling and installers</span>
+          </div>
+          <div class="stack-item reveal">
+            <span class="stack-lang">Linux</span>
+            <span class="stack-use">Wayland, X11, GNOME, KDE, Sway</span>
+          </div>
+          <div class="stack-item reveal">
+            <span class="stack-lang">Homelab</span>
+            <span class="stack-use">Docker, Raspberry Pi, nginx</span>
+          </div>
+        </div>
+
+        <!-- how the work happens -->
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-num">01</span>
+            <h3 class="step-title">Find the friction</h3>
+            <p>Every project here started as a moment of pain. A backup command to
+              memorize, a note export nobody can read, a broken display switcher.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">02</span>
+            <h3 class="step-title">Build the smallest fix</h3>
+            <p>No frameworks unless they earn their place. The tool does one job and
+              quits, so it stays understandable years later.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">03</span>
+            <h3 class="step-title">Ship it open source</h3>
+            <p>MIT or Apache 2.0, no accounts and no telemetry, so anyone on the same
+              island of hardware can use it as is.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="contact-title reveal">Found something useful,<br>or something you want built?</h2>
+        <p class="contact-sub reveal">
+          The fastest way to reach me is through GitHub. Issues and pull requests
+          on any project above always get a reply.
+        </p>
+        <div class="hero-cta reveal">
+          <a class="btn btn-primary" href="https://github.com/keshavsapra" target="_blank" rel="noopener">Open an issue on GitHub</a>
+          <a class="btn btn-ghost" href="https://github.com/keshavsapra?tab=repositories" target="_blank" rel="noopener">See all repositories</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <p class="footer-brand">Keshav Sapra</p>
+        <p class="footer-note">No cookies, no analytics, no tracking. Built offline, served from home.</p>
+        <p class="footer-copy">© <span id="year">2026</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
